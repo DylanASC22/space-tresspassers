@@ -1,0 +1,105 @@
+#nav_bar {   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003566;
+    font-family: Open Sans;
+    font-size: 20px;
+    border-bottom: 5px solid #fdd023;
+    color: white;
+}
+
+.header {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+.header a {
+    display: block;
+    color: #fdd023;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#current_page {
+    font-weight: 1000;
+}
+
+#other_page:hover {
+    transform: scale(1.2);
+  }
+
+#other_page {
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url("images/spaceBackground.gif");
+    background-color: black;    
+}
+
+#game_box {
+    width: 1500px;
+    height: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+#play_now {
+    width: 1500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: #fdd023;
+    font-family: Open Sans;
+}
+
+#game_holder {
+    height: 750px;
+    width: 500px;
+    border: 5px solid #003566;
+    border-radius: 10px;
+}
+
+#game_info {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: 1000;
+}
+
+.info_here {
+    font-family: Open Sans;
+}
+
+.display_img { 
+    width: 500px;
+    height: 500px;
+}
+
+#display_images {
+    width: 100%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#extra {
+    color: white;
+    font-family: Open Sans;
+}
